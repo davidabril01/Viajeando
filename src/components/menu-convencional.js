@@ -7,10 +7,10 @@ function MenuConvencional() {
             <Container>
             <nav className="menu__barra">
                 <ul className="menu__options">
-                    <li className="menu__option"><a href="#">Categorias</a></li>
-                    <li className="menu__option"><a href="#">Mapa</a></li>
-                    <li className="menu__option"><a href="#">Comida</a></li>
-                    <li className="menu__option"><a href="#">Perritos</a></li>
+                    <li className="menu__option"><a href="#">aaaaa</a></li>
+                    <li className="menu__option"><a href="#">aaaaaaa</a></li>
+                    <li className="menu__option"><a href="#">aaaaaa</a></li>
+                    <li className="menu__option"><a href="#">aaaaaa</a></li>
                     <li className="menu__option option__gatitos">
                         <a href="#">
                             <span className="tooltiptext">
@@ -19,7 +19,7 @@ function MenuConvencional() {
                                     <li><a href="#">Opción 2</a></li>
                                     <li><a href="#">Opción 3</a></li>
                                 </ul>
-                            </span>Gatitos
+                            </span>aaaaaaa
                         </a>
                     </li>
                 </ul>

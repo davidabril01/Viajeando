@@ -7,9 +7,8 @@ import "./content.css"
 function Content() {
     return (
     <div>
-        <Carrusel></Carrusel>
-        <MenuGeneral></MenuGeneral>
-        <Products></Products>
+        
+        
     </div>
     );
 }
