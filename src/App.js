@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import React, { useState, createContext } from 'react';
 import './App.css';
+import Header from './components/header';
+import MenuConvencional from './components/menu-convencional';
+import Content from './components/content';
+
+{/*const opcionesMenu = [
+  { nombre: 'Articulos', url: '/articulos' },
+  { nombre: 'Mapa', url: '/mapa' },
+  { nombre: 'Mascotas', url: '/mascotas' },
+  { nombre: 'Perfil', url: '/perfil' },
+]; */}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body>
+      <Header></Header>
+      <aside>
+        <MenuConvencional></MenuConvencional>
+      </aside>
+      <section>
+        <Content></Content>
+      </section>{/*
+  <footer></footer>*/}
+    </body>
   );
 }
 
