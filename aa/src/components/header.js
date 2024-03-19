@@ -1,11 +1,13 @@
 import "./header.css"
-import { Container } from "react-bootstrap";
+import { Container } from "react-bootstrap"
+import logo1 from "./images/logo1.png"
 
 function Header() {
     return (
         <header className="head">
             <Container className="head-section">
                 <div className="head-section__domain">
+                    <img className="domain__logo" src={logo1}></img>
                     <h1 className="domain__name">Viajeando</h1>
                     <small className="domain__extension">.com.ar</small>
                 </div>

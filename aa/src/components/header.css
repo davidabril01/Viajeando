@@ -1,6 +1,7 @@
 :root {
     --color-principal: #ffffff;
-    --color-secondary: #5E3FFE;
+    --color-secondary-gradient0: #9058FF;
+    --color-secondary-gradient1: #5E3FFE;
 
     --color-background: #F2F7F9;
     --color-transparent: transparent;
@@ -19,7 +20,7 @@ html {
 }
 
 .head {
-    background-color: var(--color-secondary);
+    background: linear-gradient(to right, var(--color-secondary-gradient0),var(--color-secondary-gradient1));;
     width: 100%;
     height: auto;
 }
@@ -44,19 +45,28 @@ html {
 
 }
 
+.domain__logo{
+    position: absolute;
+    height: 90%;
+    top: 0.7rem;
+    left: 0;
+}
+
 .domain__name {
     position: absolute;
-    left: 0;
+    left: 15rem;
     margin: 3rem 0;
     font-size: 5rem;
+    color: #000;
 }
 
 .domain__extension {
     position: absolute;
     font-size: 1.5rem;
     bottom: 1.7rem;
-    left: 17.4rem;
+    left: 32.5rem;
     margin-bottom: 1rem;
+    color: #000;
 }
 
 .head-section__searcher {
